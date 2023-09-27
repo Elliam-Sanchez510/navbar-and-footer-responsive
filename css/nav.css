@@ -51,10 +51,15 @@ header {
     transition: 0.2s;
 }
 
+.nav-bar ul li a:hover {
+    color: black;
+    font-weight: bold;
+}
+
 .nav-bar ul li a::after {
     display: block;
     content: "";
-    border-bottom: 2px solid #a5d7e8;
+    border-bottom: 2px solid #0B2447;
     transform: scaleX(0);
     transition: transform 250ms ease-in-out;
 }
